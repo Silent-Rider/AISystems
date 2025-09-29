@@ -1,19 +1,9 @@
 import pandas as pd
 import numpy  as np
 
-import sklearn
 from matplotlib.colors import ListedColormap
 from pandas import DataFrame
-from sklearn import linear_model
-from sklearn import metrics
-from sklearn.model_selection import train_test_split, cross_val_score
-
 from matplotlib import pyplot as plt
-from matplotlib import cm
-import seaborn as sns
-from sklearn.preprocessing import LabelEncoder
-from tensorflow.keras import layers
-from tensorflow.keras import models
 
 
 def generate_data():
